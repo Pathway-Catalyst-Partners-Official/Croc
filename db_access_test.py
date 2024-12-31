@@ -5,7 +5,7 @@ import pandas as pd
 # MySQL Database Connection
 def get_db_connection():
     return mysql.connector.connect(
-        host="portal.pathwaycatalyst.com",
+        host="10.0.0.82",
         user="maheedharraogovada",
         password="Password123!",
         database="test_db"
